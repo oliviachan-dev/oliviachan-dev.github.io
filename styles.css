@@ -1,0 +1,20 @@
+.uber {
+    background-color: black;
+    color: white;
+    height: 36px;
+    width: 100px;
+    border: none;
+    font-size: 12px;
+    margin: 8px;
+}
+.amazon {
+    background-color: rgb(254, 214, 14);
+    height: 36px;
+    width: 150px;
+    border: none;
+    border-radius: 18px;
+    font-size: 13px;
+    margin: 8px;
+}
+
+
