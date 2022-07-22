@@ -56,4 +56,27 @@
     margin-right: 8px;
 }
 
+.linkedin {
+    background-color: rgb(55, 103, 216);
+    color: white;
+    height: 36px;
+    width: 220px;
+    border: none;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.linkedin-save {
+    background-color: white;
+    color: rgb(55, 103, 216);
+    height: 36px;
+    width: 80px;
+    border: solid;
+    border-width: thin;
+    border-radius: 18px;
+    font-size: 13px;
+    font-weight: bold;
+}
 
