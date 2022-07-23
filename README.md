@@ -6,7 +6,6 @@ This is a solution to the [Supersimple.dev Lesson 2 Exercise - CSS Basics](https
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -18,10 +17,6 @@ Goal of this exercise to recreate popular social media buttons as accurately as 
 
 ### The challenge
 Recreate button appearance with hover and action states. 
-
-### Screenshot
-
-![](./screenshot.jpg)
 
 ### Links
 - Live Site URL: https://oliviachan-dev.github.io/social-media-buttons/
