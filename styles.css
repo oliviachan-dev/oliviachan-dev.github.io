@@ -4,21 +4,34 @@
     height: 36px;
     width: 100px;
     border: none;
+    border-radius: 8px;
     font-size: 12px;
+    font-weight: bold;
     margin: 8px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+.uber:hover {
+   opacity: 0.8;
 }
 .amazon {
-    background-color: rgb(254, 214, 14);
+    background-color: hsl(50, 99%, 53%);
     height: 36px;
     width: 150px;
     border: none;
     border-radius: 18px;
     font-size: 13px;
     margin: 8px;
+    cursor: pointer;
+    transition: background-color 0.12s;
+}
+
+.amazon:hover {
+    background-color: hsl(50, 99%, 45%);
 }
 
 .github {
-    background-color: rgb(94, 173, 74);
+    background-color: hsl(108, 40%, 48%);
     color: white;
     height: 36px;
     width: 83px;
@@ -27,10 +40,16 @@
     font-weight: bold;
     font-size: 13px;
     margin: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.github:hover {
+    background-color: hsl(108, 40%, 43%);
 }
 
 .bootstrap {
-    background-color: rgb(120, 92, 162);
+    background-color: hsl(264, 60%, 55%);
     color: white;
     height: 36px;
     width: 105px;
@@ -40,6 +59,16 @@
     border-radius: 3px;
     margin-left: 8px;
     margin-right: 3px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.bootstrap:hover {
+    background-color: hsl(264, 60%, 43%);
+}
+
+.bootstrap:active {
+    background-color: hsl(264, 60%, 40%);
 }
 
 .bootstrap-download {
@@ -54,29 +83,48 @@
     font-weight: bold;
     font-size: 12px;
     margin-right: 8px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+.bootstrap-download:hover {
+    background-color: rgb(234, 234, 234);
 }
 
 .linkedin {
-    background-color: rgb(55, 103, 216);
+    background-color: hsl(222, 67%, 53%);
     color: white;
     height: 36px;
     width: 220px;
     border: none;
     border-radius: 18px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
     margin-right: 5px;
+    cursor: pointer;
+    transition: background-color 0.15s;
 }
-
+.linkedin:hover {
+    background-color: hsl(222, 67%, 40%);
+}
+.linkedin:active {
+    background-color: black;
+}
 .linkedin-save {
     background-color: white;
-    color: rgb(55, 103, 216);
+    color: hsl(222, 67%, 53%);
     height: 36px;
     width: 80px;
     border: solid;
     border-width: thin;
     border-radius: 18px;
-    font-size: 13px;
+    font-size: 14px;
     font-weight: bold;
+    cursor: pointer; 
+    transition: background-color 0.15s;
+    transition: border-width 0.15s;
+}
+.linkedin-save:hover {
+    background-color: hsl(221, 83%, 95%);
+    border-width: 2px;  
 }
 

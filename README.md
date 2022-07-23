@@ -1,6 +1,6 @@
 # Supersimple.dev button exercise
 
-This is a solution to the [Supersimple.dev Lesson 2 Exercise - CSS Basics](https://youtu.be/G3e-cpL7ofc) at the @44:22 mark. 
+This is a solution to the [Supersimple.dev Lesson 2 Exercise - CSS Basics](https://youtu.be/G3e-cpL7ofc) at the @44:22 mark.
 
 ## Table of contents
 
@@ -11,13 +11,10 @@ This is a solution to the [Supersimple.dev Lesson 2 Exercise - CSS Basics](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
 ## Overview
-Goal of this exercise to recreate popular social media buttons as accurately as possible without viewing web tools. 
+Goal of this exercise to recreate popular social media buttons as accurately as possible without viewing web tools or existing solutions. 
 
 ### The challenge
 Recreate button appearance with hover and action states. 
@@ -33,34 +30,20 @@ Recreate button appearance with hover and action states.
 My general process was creating the HTML element, then styling the button by color, font, border. Finally, I added hover and active states.
 
 ### Built with
-
 - Semantic HTML5 markup
 - CSS custom properties
 
 ### What I learned
+Something new I learned was how to add simple transitions to buttons.  
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
+.button-transition {
+  transition: opacity 0.15s;
 }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
+Something I would like to incorporate in the future are box-shadows. When I looked at the buttons from Uber, Amazon, GitHub, Bootstrap, and LinkedIn however, they did not use shadows. Perhaps shadows on buttons are an outdated design choice?
 
 ## Acknowledgments
+Thank you to SuperSimpleDev for creating interesting and practical web development exercises and solutions! :)
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+Also thanks to HTML&CSS by Jon Duckett for teaching me the basics of html and css :)
