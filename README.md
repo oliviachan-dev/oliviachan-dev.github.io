@@ -24,7 +24,8 @@ Recreate button appearance with hover and action states.
 ![](./screenshot.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://oliviachan-dev.github.io/social-media-buttons/
+Link will contain my solution to this exercise. 
 
 ## My process
 My general process was creating the HTML element, then styling the button by color, font, border. Finally, I added hover and active states.
